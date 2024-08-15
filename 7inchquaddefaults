@@ -1,0 +1,122 @@
+    {
+        "title": 'Mini Quad with 7" propellers',
+        "id": 5,
+        "notRecommended": false,
+        "reboot": true,
+        "mixerToApply": 3,
+        "wizardPages": ['receiver', 'gps'],
+        "settings": [
+            {
+                key: "model_preview_type",
+                value: 3
+            },
+            /*
+            System
+            */
+            {
+                key: "gyro_hardware_lpf",
+                value: "256HZ"
+            },
+            {
+                key: "looptime",
+                value: 500
+            },
+            {
+                key: "motor_pwm_protocol",
+                value: "DSHOT300"
+            },
+            /*
+            Ez Tune setup
+            */
+            {
+                key: "ez_enabled",
+                value: "ON"
+            },
+            {
+                key: "ez_filter_hz",
+                value: 90
+            },
+            {
+                key: "ez_axis_ratio",
+                value: 110
+            },
+            {
+                key: "ez_response",
+                value: 101
+            },
+            {
+                key: "ez_damping",
+                value: 115
+            },
+            {
+                key: "ez_stability",
+                value: 100
+            },
+            {
+                key: "ez_aggressiveness",
+                value: 100
+            },
+            {
+                key: "ez_rate",
+                value: 134
+            },
+            {
+                key: "ez_expo",
+                value: 118
+            },
+            /*
+            Mechanics
+            */
+            {
+                key: "airmode_type",
+                value: "THROTTLE_THRESHOLD"
+            },
+            {
+                key: "airmode_throttle_threshold",
+                value: 1150
+            },
+            {
+                key: "mc_iterm_relax",
+                value: "RPY"
+            },
+            {
+                key: "d_boost_min",
+                value: 0.8
+            },
+            {
+                key: "d_boost_max",
+                value: 1.2
+            },
+            {
+                key: "antigravity_gain",
+                value: 2
+            },
+            {
+                key: "antigravity_accelerator",
+                value: 5
+            },
+            /*
+             * TPA
+             */
+            {
+                key: "tpa_rate",
+                value: 20
+            },
+            {
+                key: "tpa_breakpoint",
+                value: 1200
+            },
+            {
+                key: "platform_type",
+                value: "MULTIROTOR"
+            },
+            {
+                key: "applied_defaults",
+                value: 5
+            },
+            {
+                key: "failsafe_procedure",
+                value: "DROP"
+            }
+        ]
+    },
